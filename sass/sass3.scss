@@ -1,0 +1,32 @@
+$mycolors:(
+    primary: red,
+    secondary: green
+);
+
+@function color($key){
+    @return map-get($mycolors , $key );
+}
+
+@mixin slide {
+    @media (max-width:768px) {
+        @content;
+    }
+}
+
+body{
+    background-color: color(secondary);
+    @include slide{
+        background-color: color(primary);
+    }
+}
+
+.one{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: color(primary);
+    @include slide{
+        background-color: color(secondary);
+        width: 500px;
+    }
+}

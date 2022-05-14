@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+    
+    <section>
+        <div class="container mt-5">
+            <div class="d-flex display mx-auto">
+        
+            </div>
+            
+        </div>
+    </section>
+<style>
+    .card{
+        animation: disco 1s ease-in-out infinite;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        overflow-y: hidden;
+    }
+    .one{
+        animation: disco2 1s ease-in-out infinite;
+    }
+    .two{
+        animation: disco3 1s ease-in-out infinite;
+    }
+
+    .pp{
+        font-size: 50px !important;
+       animation: blinks 1s ease-in-out alternate infinite;
+    }
+    .slide{
+        position: relative;
+        animation: slide 1.5s ease-in-out infinite;
+    }
+    @keyframes blinks {
+        to{
+            transform: scale(1);
+        }
+        from{
+            transform: scale(1.1);
+        }
+    }
+    @keyframes disco {
+        0%{
+            box-shadow: 0 0 40px 25px gold;
+        }
+        50%{
+            box-shadow: 0 0 40px 25px blue;
+        }
+        100%{
+            box-shadow: 0 0 40px 25px purple;
+        }
+    }
+    @keyframes disco2 {
+        0%{
+            box-shadow: 0 0 40px 25px purple;
+        }
+        50%{
+            box-shadow: 0 0 40px 25px gold;
+        }
+        100%{
+            box-shadow: 0 0 40px 25px blue;
+        }
+    }
+    @keyframes disco3 {
+        0%{
+            box-shadow: 0 0 40px 25px blue;
+        }
+        50%{
+            box-shadow: 0 0 40px 25px purple;
+        }
+        100%{
+            box-shadow: 0 0 40px 25px gold;
+        }
+    }
+    @keyframes slide {
+        to{
+            top: 300px;
+        }from{
+            top: -20px;
+        }
+    }
+</style>
+
+    <script src="js/jsday8.js"></script>
+</body>
+</html>

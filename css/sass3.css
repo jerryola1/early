@@ -1,0 +1,24 @@
+body {
+  background-color: green;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
+
+.one {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  background-color: red;
+}
+
+@media (max-width: 768px) {
+  .one {
+    background-color: green;
+    width: 500px;
+  }
+}
+/*# sourceMappingURL=sass3.css.map */

@@ -1,0 +1,46 @@
+.gradient{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+    /* background-image: linear-gradient(217deg, red 32%, green 42%, blue 60%); */
+
+    background-image: repeating-radial-gradient(red 10%, blue 15%);
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+    animation: wiggle 1.2s ease-in-out infinite;
+}
+
+@keyframes wiggle{
+    0%{
+        background-image: repeating-radial-gradient(red -7%, blue 15%);
+    }
+
+    50%{
+        background-image: url(../img/ball.jpg);
+    }
+
+    100%{
+        background-image: repeating-linear-gradient(red -29%, blue 15%);
+    }
+}
+
+.ass{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    animation: width 1s ease-in-out infinite;
+    border-radius: 50%;
+}
+
+
+@keyframes width{
+    50%{
+        background-image: repeating-radial-gradient(blue) ;
+    }
+
+    100%{
+        background-image: url(../img/icon.gif);
+    }
+}

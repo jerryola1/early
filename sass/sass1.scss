@@ -1,0 +1,29 @@
+$sizes: (
+    lg: 100px,
+    md: 50px,
+    sm: 25px
+);
+
+$colors: (
+    primary: red,
+    secondary: blue,
+    neutral: yellow
+);
+
+.body{
+    background-color: map-get($colors , primary );
+}
+
+.section{
+    background-color: map-get($colors, secondary );
+}
+
+// Function
+
+@function myColors(){
+    @return map-get($colors , neutral );
+}
+
+.head{
+    background-color: myColors();
+}

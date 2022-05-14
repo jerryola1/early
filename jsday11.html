@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <section>
+        <div class="container mt-4">
+            <div class="card mx-auto">
+                <div id="do-key">
+                    Do
+                    <span id="db"></span>
+                </div>
+                <div id="re-key">
+                    Re
+                    <span id="rb"></span>
+                </div>
+                <div id="mi-key">
+                    Mi
+                </div>
+                <div id="fa-key">
+                    Fa
+                    <span id="fb"></span>
+                </div>
+                <div id="so-key">
+                    So
+                    <span id="sb"></span>
+                </div>
+                <div id="la-key">
+                    La
+                </div>
+                <div id="ti-key">
+                    Ti
+                    <span id="tb"></span>
+                </div>
+                <div id="doh-key">
+                    Do
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="sounds">
+            <audio src="notes/A.mp3" id="do-sound"></audio>
+            <audio src="notes/Ab.mp3" id="db-sound"></audio>
+            <audio src="notes/B.mp3" id="re-sound"></audio>
+            <audio src="notes/Bb.mp3" id="rb-sound"></audio>
+            <audio src="notes/C.mp3" id="mi-sound"></audio>
+            <audio src="notes/D.mp3" id="fa-sound"></audio>
+            <audio src="notes/Db.mp3" id="fb-sound"></audio>
+            <audio src="notes/E.mp3" id="so-sound"></audio>
+            <audio src="notes/Eb.mp3" id="sb-sound"></audio>
+            <audio src="notes/F.mp3" id="la-sound"></audio>
+            <audio src="notes/G.mp3" id="ti-sound"></audio>
+            <audio src="notes/Gb.mp3" id="tb-sound"></audio>
+        </div>
+    </section>
+    
+    
+    <style>
+        .card div{
+            border: 1px solid black;
+            text-align: center;
+            height: 400px;
+            padding-top: 350px;
+            position: relative;
+            cursor: pointer;
+        }
+        .card span{
+            background-color: black;
+            display: inline-block;
+            width: 80px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            right: -40px;
+            cursor: pointer;
+            
+        }
+        .card{
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            border: 10px solid black;
+            border-radius: 20px;
+        }
+        .card span:active{
+            box-shadow: 0 32px 30px 20px rgba(0, 0, 0, 0.237);
+        }
+        .card div:active{
+            box-shadow: 0 32px 30px 20px rgba(0, 0, 0, 0.082);
+        }
+        </style>
+<script src="js/jsday11.js"></script>
+</body>
+</html>

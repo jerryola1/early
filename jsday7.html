@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <section>
+        <div class="container mt-5">
+            <div class="card position-relative shadow mx-auto" style="max-width: 800px; background-position: center;">
+                <div class="overlay d-none"></div>
+                <div class="display">
+                    <h1 class="fw-bold text-center">
+                        <span class="text-danger">ROCK</span>
+                        <span class="text-info">PAPPER</span>
+                        <span class="text-warning">SCISSORS</span>
+                    </h1>
+
+                   
+               </div>
+
+                <div class="text-center buttons py-3">
+                    <button class="btn btn-primary" id="startGame">Start Game</button>
+                    <button class="btn btn-success d-none" id="play">PLAY</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<style>
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.096);
+    }
+    .display,.buttons{
+        position: relative;
+        z-index: 9;
+    }
+</style>
+    <script src="js/jsday7.js"></script>
+</body>
+</html>

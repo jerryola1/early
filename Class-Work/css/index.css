@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.topbar {
+  background-color: skyblue;
+}
+
+.topbar h1 {
+  text-align: center;
+  color: aquamarine;
+}
+/*# sourceMappingURL=index.css.map */

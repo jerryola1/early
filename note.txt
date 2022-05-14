@@ -1,0 +1,138 @@
+display or flex align the items side by side
+
+linear gradient run from a straight line from one direction to another
+
+
+radient gradient start from the center and spread
+
+to get rid of dot you use list-style
+
+to give space between menu we use a gap 
+
+to remove underline we use text decoration
+
+vh means view hight
+
+mixin
+
+JS_______________________
+
+js i a scripting language
+
+js is red from top to buttom
+
+variable allow us to store dating and use them later
+
+we have reusable variables and constant variables
+
+to create variable  u use let keyword, and anything that follows becomes a variable
+
+you dont start a variable with a symbol and a number or end with a symbol
+
+it is aviceable to write a variable with camel cases
+
+when u declare a re usable variable using let, you dont declare it again when you want to use it
+
+when creating a constant variable you use the keyword const
+
+we have single line comment //
+multi line commen /*The comment*/
+
+Data Type_______________________
+
+an integer data type is a number without a remainder  eg let int = 1;
+
+a float is an integer number with a remainder eg let float = 233.66;
+
+a string is a multiple data or text that you want to put together eg let string = "This is a string";
+
+you can use either a single quaote or double while writing a string 
+ you can use a backward slash \ to escape while using single quaote in a single quoate
+
+a boolean data type is kind of an answer to a question either true of false
+it is usually used to set rules
+
+an array is a data type that allows us to hold more than one value or more than one data type
+an array can hold any type of data type can be written with []
+array index allows you to log one of the items the array is holding
+every index items in an array start with zero
+
+objects data type are any particular thing that hold properties and has methods
+
+js operators____________________________
+
+arithmetic opertors
+assignment opreator is just like gining a particular value to  varible 
+whenever you use the += sign it means add the first variable and carry it to the second variable
+
+increament and decreament you can use it to do a count up or count down ++ --
+
+create and array and log them out, use the integer for mathematics
+
+conditional statement are the rules we are building on our application eg if else if and else
+
+== is compering two value
+= is an assignment operator 
+=== will check the value and data type if there are same
+!= is not equal to sign
+> greater than canparison operator 
+>=
+< lessan than 
+<= lesser than or equal to operator
+
+logical operator eg and and or
+&& and logical operator is to make sure both condition are true
+|| or logical operator is to make sure one of the condition are true
+alert__ will only send out message
+prompt___ pop out question or value from user
+confirm___ fuction helps us to return a boolean and it sent either true or false
+
+concatinate is to add 
+
+
+build a voting system that check vote 
+john doe
+if name is john doe and age is lesser than 18 tell him he can go ahead and vote
+
+build an age calaculator
+user provide year and we canculate age, and if age falls below 1 - 5 say you are a toddler at age + age
+when age is 6 - 12 say you are a kid at age + age
+wen age is 13-19 say you are a teenager 
+wen age is 20-35 say you are a youth 
+wen age is greater than 35 say you are a senior citizen at age + age
+
+2cashwiz
+2cash@WIZ
+
+a.dbf
+
+sysfile.mbf
+
+vbill11.frx
+
+
+addeventlistener takes 2 parameters, 
+
+the default action of a form is to submit and refresh
+
+assignment
+
+the keypress event start with an empty value
+
+###############################################
+
+git
+
+git status -- to check the status of git
+git branch -- to see the current branch working on
+git checkout -- to switch branches from main to sub branch
+git add . --- to add to the staging area
+
+staging area is a temporary save area
+
+git mearge --- is to mearge from your branch to the main branch or other branch
+
+///////////////////////////////////////////////
+
+PHP
+php is scripting language 
